@@ -1,8 +1,11 @@
+#open file
 with open("Yoda1.ppm", "rb") as ppm_file, open("output.mem", "w") as mem_file:
     # Read the header of the PPM file
     header = ppm_file.readline().decode().strip()
+    # check that ppm file is valid
     if header != "P6":
         raise ValueError("Input file is not a PPM file!")
+    # read image dimensions
     dimensions = ppm_file.readline().decode().split()
     width, height = int(dimensions[0]), int(dimensions[1])
     max_val = int(ppm_file.readline().decode().strip())
@@ -11,5 +14,8 @@ with open("Yoda1.ppm", "rb") as ppm_file, open("output.mem", "w") as mem_file:
     for y in range(height):
         for x in range(width):
             r, g, b = ppm_file.read(3)
-            mem_file.write("{:02X}{:02X}{:02X}\n".format(r, g, b))
+            # write one colour channel per line
+            mem_file.write("{:02X}\n".format(r))
+            mem_file.write("{:02X}\n".format(g))
+            mem_file.write("{:02X}\n".format(b))
 
