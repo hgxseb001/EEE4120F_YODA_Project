@@ -13,4 +13,4 @@ def mem_to_ppm(input_file, output_file, width, height):
 
     print("PPM file created successfully!")
 
-mem_to_ppm('output.mem', 'yoda_reconstructed.ppm', 32, 32)
+mem_to_ppm('output.txt', 'yoda_reconstructed.ppm', 32, 32)

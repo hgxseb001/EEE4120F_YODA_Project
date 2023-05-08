@@ -34,6 +34,39 @@ module hello_world;
 
 endmodule
 
+
+
+
+// module encoder(
+//   input clk, 
+//   input enable, 
+//   input [31:0] numPixels, 
+//   input startAddress [31:0], 
+//   input [31: 0] size, 
+//   output [31: 0] outAddress,
+//   output [23: 0] data
+  
+  
+//   );
+
+//   parameter SIZE = 32*32;
+//   parameter numStringBits = 184;
+
+//   output reg data [(size*24)-1: 0]
+//   reg [23:0] imageFile [SIZE-1:0];
+//   reg [3:0] textFile [numStringBits-1:0];
+
+//   $readmemh("output.mem", rom_memory);
+//   $readmemh("input_string.mem", textFile);
+
+//   for (int i=0; i<SIZE; i++) begin
+//     assign data [((i+1)*24)-1, (i*24)] <= {imageFile[startAddress+4-1:startAddress], textFile[0:0]};
+
+//   end
+
+
+// endmodule
+
 // `timescale 1ns / 1ps
 
 // module testBench;
