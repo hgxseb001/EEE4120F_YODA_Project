@@ -1,5 +1,5 @@
 #open file
-with open("Yoda1.ppm", "rb") as ppm_file, open("output.mem", "w") as mem_file:
+with open("Yoda.ppm", "rb") as ppm_file, open("output.mem", "w") as mem_file:
     # Read the header of the PPM file
     header = ppm_file.readline().decode().strip()
     # check that ppm file is valid

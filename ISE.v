@@ -2,7 +2,7 @@
 // define module for Image Steganography Encoder
 module ISE;
 // define constants, to be set as inputs in future
-  parameter numImagePixels = 1600*1920*3;
+  parameter numImagePixels = 32*32*3;
   parameter numStringBits = 1040;
 
   // registers for storing file contents
@@ -26,9 +26,7 @@ module ISE;
     for (i = 0; i < numImagePixels; i = i + 1) begin
       // while bits are still available in text file do LSB encoding
       if (i < numStringBits) begin
-        // temp = {imageFile[23:1][i], textFile[0:0][i]}; 
-        // outBuffer[23:1][i] <= imageFile[23:1][i];
-        // outBuffer[23:0][i] <= textFile[0:0][i];
+
         outBuffer[i] <= {imageFile[i][7:1], textFile[i][0:0]};
         // $display(outBuffer[i]);
       end
