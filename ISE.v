@@ -3,7 +3,7 @@
 module ISE;
 // define constants, to be set as inputs in future
   parameter numImagePixels = 32*32*3;
-  parameter numStringBits = 1040;
+  parameter numStringBits = 344;
 
   // registers for storing file contents
   reg [7:0] imageFile [numImagePixels-1: 0];
