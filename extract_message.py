@@ -32,5 +32,25 @@ def decode_image(image_file):
 
 # instantiate object and extract message
 image_file = "yoda_reconstructed.ppm"
+
+encryption_key = "VERY_SECURE_ENCRYPTION_KEY"
+keyLen = len(encryption_key)
+
+import bitarray
+
+# create list to store bits
+l = []
+
+# create bitarray object
+bA = bitarray.bitarray()
+# extract bits
+bA.frombytes("VERY_SECURE_ENCRYPTION_KEY".encode('utf-8'))
+# create list of bits
+l = bA.tolist()
+decrypted_string = ""
 message = decode_image(image_file)
-print("The hidden message is:", message)
+for i in range(len(message)):   
+    decrypted_string += chr(message[i] ^ encryption_key[i%keyLen])
+
+
+print("The hidden message is:", decrypted_string)

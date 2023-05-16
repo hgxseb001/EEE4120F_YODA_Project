@@ -6,12 +6,12 @@ l = []
 # create bitarray object
 bA = bitarray.bitarray()
 # extract bits
-bA.frombytes("It's over Anikin. I've got the high ground!".encode('utf-8'))
+bA.frombytes("VERY_SECURE_ENCRYPTION_KEY".encode('utf-8'))
 # create list of bits
 l = bA.tolist()
 
 # write bits to output file
-with open("input_string.mem", "w") as output_file:
+with open("encryption_key.mem", "w") as output_file:
     for item in l:
         output_file.write(str(item) + "\n")
 
