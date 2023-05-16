@@ -1,0 +1,311 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue May 16 19:01:39 2023
+# Process ID: 17755
+# Current directory: /home/sebastian/EEE4120F/YODA_Project_V2/YODA_V2_Sequential/YODA_V2_Sequential.runs/synth_1
+# Command line: vivado -log ISE.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ISE.tcl
+# Log file: /home/sebastian/EEE4120F/YODA_Project_V2/YODA_V2_Sequential/YODA_V2_Sequential.runs/synth_1/ISE.vds
+# Journal file: /home/sebastian/EEE4120F/YODA_Project_V2/YODA_V2_Sequential/YODA_V2_Sequential.runs/synth_1/vivado.jou
+# Running On: sebastian-Latitude-E6530, OS: Linux, CPU Frequency: 3389.321 MHz, CPU Physical cores: 2, Host memory: 16675 MB
+#-----------------------------------------------------------
+source ISE.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1269.496 ; gain = 0.023 ; free physical = 4686 ; free virtual = 30011
+Command: synth_design -top ISE -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17800
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1645.234 ; gain = 375.738 ; free physical = 4169 ; free virtual = 29481
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1065.730; parent = 860.478; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2599.672; parent = 1645.238; children = 954.434
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ISE' [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:3]
+INFO: [Synth 8-3876] $readmem data file 'output.mem' is read successfully [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:25]
+INFO: [Synth 8-3876] $readmem data file 'input_string.mem' is read successfully [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:26]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:33]
+INFO: [Common 17-14] Message 'Synth 8-311' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-639] system function call 'fopen' not supported [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:49]
+INFO: [Synth 8-251] Error opening file! [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'ISE' (0#1) [/home/sebastian/EEE4120F/YODA_Project_V2/ISE.v:3]
+WARNING: [Synth 8-3330] design ISE has an empty top module
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1722.203 ; gain = 452.707 ; free physical = 4254 ; free virtual = 29561
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1065.730; parent = 860.478; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2676.641; parent = 1722.207; children = 954.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1737.047 ; gain = 467.551 ; free physical = 4253 ; free virtual = 29561
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1065.730; parent = 860.478; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2691.484; parent = 1737.051; children = 954.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1745.051 ; gain = 475.555 ; free physical = 4253 ; free virtual = 29561
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1065.730; parent = 860.478; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2699.488; parent = 1745.055; children = 954.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1753.957 ; gain = 484.461 ; free physical = 4250 ; free virtual = 29558
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1065.730; parent = 860.478; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2708.395; parent = 1753.961; children = 954.434
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3330] design ISE has an empty top module
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1871.270 ; gain = 601.773 ; free physical = 3955 ; free virtual = 29290
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1279.554; parent = 1074.332; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2825.707; parent = 1871.273; children = 954.434
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1871.270 ; gain = 601.773 ; free physical = 3955 ; free virtual = 29290
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1282.827; parent = 1077.605; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2825.707; parent = 1871.273; children = 954.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1871.270 ; gain = 601.773 ; free physical = 3944 ; free virtual = 29279
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1283.952; parent = 1078.730; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2825.707; parent = 1871.273; children = 954.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 1871.270 ; gain = 601.773 ; free physical = 3942 ; free virtual = 29277
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1284.249; parent = 1079.027; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2825.707; parent = 1871.273; children = 954.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 1871.270 ; gain = 601.773 ; free physical = 3942 ; free virtual = 29277
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1284.265; parent = 1079.043; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2825.707; parent = 1871.273; children = 954.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 1871.270 ; gain = 601.773 ; free physical = 3942 ; free virtual = 29277
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1284.421; parent = 1079.199; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2825.707; parent = 1871.273; children = 954.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 1871.270 ; gain = 601.773 ; free physical = 3942 ; free virtual = 29277
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1284.499; parent = 1079.277; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2825.707; parent = 1871.273; children = 954.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 1871.270 ; gain = 601.773 ; free physical = 3939 ; free virtual = 29275
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1284.499; parent = 1079.277; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2825.707; parent = 1871.273; children = 954.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 1871.270 ; gain = 601.773 ; free physical = 3939 ; free virtual = 29275
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1284.515; parent = 1079.293; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2825.707; parent = 1871.273; children = 954.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 1871.270 ; gain = 601.773 ; free physical = 3939 ; free virtual = 29275
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1284.562; parent = 1079.340; children = 205.253
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2825.707; parent = 1871.273; children = 954.434
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3076 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 1871.270 ; gain = 601.773 ; free physical = 3939 ; free virtual = 29275
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 1871.277 ; gain = 601.773 ; free physical = 3939 ; free virtual = 29275
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1871.277 ; gain = 0.000 ; free physical = 3936 ; free virtual = 29273
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1960.801 ; gain = 0.000 ; free physical = 3943 ; free virtual = 29294
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 56f642b4
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 1960.801 ; gain = 691.305 ; free physical = 4140 ; free virtual = 29491
+INFO: [Common 17-1381] The checkpoint '/home/sebastian/EEE4120F/YODA_Project_V2/YODA_V2_Sequential/YODA_V2_Sequential.runs/synth_1/ISE.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ISE_utilization_synth.rpt -pb ISE_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue May 16 19:02:26 2023...

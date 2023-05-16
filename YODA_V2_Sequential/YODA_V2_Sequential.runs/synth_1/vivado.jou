@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue May 16 19:01:39 2023
+# Process ID: 17755
+# Current directory: /home/sebastian/EEE4120F/YODA_Project_V2/YODA_V2_Sequential/YODA_V2_Sequential.runs/synth_1
+# Command line: vivado -log ISE.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ISE.tcl
+# Log file: /home/sebastian/EEE4120F/YODA_Project_V2/YODA_V2_Sequential/YODA_V2_Sequential.runs/synth_1/ISE.vds
+# Journal file: /home/sebastian/EEE4120F/YODA_Project_V2/YODA_V2_Sequential/YODA_V2_Sequential.runs/synth_1/vivado.jou
+# Running On: sebastian-Latitude-E6530, OS: Linux, CPU Frequency: 3389.321 MHz, CPU Physical cores: 2, Host memory: 16675 MB
+#-----------------------------------------------------------
+source ISE.tcl -notrace
