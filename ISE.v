@@ -34,22 +34,34 @@ module ISE;
     $readmemh("encryption_key.mem", keyFile);
     
     // loop over colour channels
+    // show that encryption has started
     encryptStatus = 1'b1;
     for (i=0; i<numStringBits; i = i +1) begin
+
+        // perform encryption:
+        // write first 3 bits to 0 since working with 4 bit hex vals
         encryptedString [i][3:1] <= 3'b0;
+        // perform encryption by XOR with symmetric key
         encryptedString[i] [0:0] <= textFile[i][0:0] ^ keyFile[i%numKeyBits][0:0]; 
         #1;   
     end
+    // show that encryption has ended
     encryptStatus = 1'b0;
     
+    // show that decryption has started
     decryptStatus = 1'b1;
+    // loop over each color val
     for (i=0; i<numStringBits; i = i +1) begin
+      // discard first 3 bits
         decryptedString [i][3:1] <= 3'b0;
+        // perform decryption by XOR
         decryptedString[i] [0:0] <= encryptedString[i][0:0] ^ keyFile[i%numKeyBits][0:0]; 
         #1;   
     end
+    // show that decryption has ended
     decryptStatus = 1'b0;
     
+    // show that processing has started
     processStatus = 1'b1;
     for (i = 0; i < numImagePixels; i = i + 1) begin
       // while bits are still available in text file do LSB encoding
